@@ -1,0 +1,80 @@
+#figure{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 69, 142);
+}
+.content{
+    margin: 20px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#mini-bar{
+    display: flex;
+    margin-left: 10%;
+    font-size: x-large;
+}
+
+
+
+@media all and (min-width:0px) {
+    #avatar{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    #figure{
+        position: relative;
+        margin-left: 10%;
+        width: 80%;
+        height: 200px;
+        border: 1px solid black;
+    }
+    .figure-info{
+        position: relative;
+        margin-top: 20px;
+        color: white;
+    }
+}
+@media all and (min-width:512px) {
+    #avatar{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    #figure{
+        position: relative;
+        margin-left: 10%;
+        width: 80%;
+        height: 200px;
+        border: 1px solid black;
+    }
+    .figure-info{
+        position: relative;
+        color: white;
+    }
+}
+@media all and (min-width:1000px) {
+    #avatar{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        border-radius: 50%;
+    }
+    #figure{
+        position: relative;
+        margin-left: 10%;
+        width: 80%;
+        height: 250px;
+        border: 1px solid black;
+    }
+    .figure-info{
+        position: relative;
+        color: white;
+    }
+}
